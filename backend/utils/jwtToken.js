@@ -6,6 +6,8 @@ export const generateToken = (user, message, statusCode, res) => {
   res
     .status(statusCode)
     .cookie(cookieName, token, {
+      secure: true,
+      sameSite: "None",
       expires: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),
       httpOnly: true,
     })

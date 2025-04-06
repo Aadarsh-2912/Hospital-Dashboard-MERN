@@ -17,7 +17,6 @@ app.use(
     origin: ["https://hospital-dashboard-mern.vercel.app", "https://hospital-dashboard-mern-8eok.vercel.app"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
-    optionsSuccessStatus: 200,
   })
 );
 
