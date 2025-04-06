@@ -6,7 +6,7 @@ export const generateToken = (user, message, statusCode, res) => {
   res
     .status(statusCode)
     .cookie(cookieName, token, {
-      expires: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),
+      expires: "15d",
       httpOnly: true,
     })
     .json({
@@ -16,4 +16,3 @@ export const generateToken = (user, message, statusCode, res) => {
       token,
     });
 };
-
