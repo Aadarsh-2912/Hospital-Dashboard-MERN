@@ -14,9 +14,10 @@ config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: ["https://hospital-dashboard-mern.vercel.app/", "https://hospital-dashboard-mern-8eok.vercel.app/"],
+    origin: ["https://hospital-dashboard-mern.vercel.app", "https://hospital-dashboard-mern-8eok.vercel.app"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
+    optionsSuccessStatus: 200,
   })
 );
 
