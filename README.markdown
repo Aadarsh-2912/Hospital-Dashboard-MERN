@@ -86,7 +86,7 @@ MERN-Stack-Hospital-Management-System/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/MERN-Stack-Hospital-Management-System.git
+git clone https://github.com/Aadarsh-2912/MERN-Stack-Hospital-Management-System.git
 cd MERN-Stack-Hospital-Management-System
 ```
 
@@ -157,16 +157,6 @@ npm start
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots to the `/screenshots` directory and embed them below.)
-
-- **Admin Dashboard**
-
-- **Patient Booking**
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
@@ -175,5 +165,5 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-- **GitHub:** @yourusername
-- **Email:** your.email@example.com
+- **GitHub:** Aadarsh-2912
+- **Email:** aadarshanand2912@gmail.com
